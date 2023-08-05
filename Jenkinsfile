@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("C:\\Users\\DELL\\IdeaProjects\\collegeprof1") {
+                dir("C:/Users/MCA-19/Desktop/devops/collegeworkshop") {
                 bat 'mvn -B  clean install'
                 }
             }
